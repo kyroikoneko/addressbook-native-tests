@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6222" started-at="2015-06-04T19:39:40Z" finished-at="2015-06-04T19:39:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6222" started-at="2015-06-04T19:39:40Z" finished-at="2015-06-04T19:39:46Z">
+      <class name="com.example.tests.TestContactCreation">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.TestContactCreation@4c75cab9]" name="setUp" is-config="true" duration-ms="39" started-at="2015-06-04T23:39:40Z" finished-at="2015-06-04T23:39:40Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="shouldCreateContactWithValidData()[pri:0, instance:com.example.tests.TestContactCreation@4c75cab9]" name="shouldCreateContactWithValidData" duration-ms="6177" started-at="2015-06-04T23:39:40Z" finished-at="2015-06-04T23:39:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldCreateContactWithValidData -->
+      </class> <!-- com.example.tests.TestContactCreation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
