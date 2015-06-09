@@ -61,5 +61,12 @@ public class AutoItHelper extends HelpersBase {
 	public String getText(String controlID) {
 		return aux.controlGetText(winTitle, winText, controlID);
 	}
+	
+	public boolean windowExist(String title) {
+		return aux.winExists(title);
+		
+	
+		
+	} 
     
 }

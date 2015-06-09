@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6222" started-at="2015-06-04T19:39:40Z" finished-at="2015-06-04T19:39:46Z">
+  <suite name="Default suite" duration-ms="8223" started-at="2015-06-09T18:46:06Z" finished-at="2015-06-09T18:46:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6222" started-at="2015-06-04T19:39:40Z" finished-at="2015-06-04T19:39:46Z">
-      <class name="com.example.tests.TestContactCreation">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.TestContactCreation@4c75cab9]" name="setUp" is-config="true" duration-ms="39" started-at="2015-06-04T23:39:40Z" finished-at="2015-06-04T23:39:40Z">
+    <test name="Default test" duration-ms="8223" started-at="2015-06-09T18:46:06Z" finished-at="2015-06-09T18:46:14Z">
+      <class name="com.example.tests.TestContactDelete">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.TestContactDelete@4c75cab9]" name="setUp" is-config="true" duration-ms="346" started-at="2015-06-09T22:46:06Z" finished-at="2015-06-09T22:46:06Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -16,11 +16,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="shouldCreateContactWithValidData()[pri:0, instance:com.example.tests.TestContactCreation@4c75cab9]" name="shouldCreateContactWithValidData" duration-ms="6177" started-at="2015-06-04T23:39:40Z" finished-at="2015-06-04T23:39:46Z">
+        <test-method status="PASS" signature="shouldDeleteContacts()[pri:0, instance:com.example.tests.TestContactDelete@4c75cab9]" name="shouldDeleteContacts" duration-ms="7870" started-at="2015-06-09T22:46:06Z" finished-at="2015-06-09T22:46:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldCreateContactWithValidData -->
-      </class> <!-- com.example.tests.TestContactCreation -->
+        </test-method> <!-- shouldDeleteContacts -->
+      </class> <!-- com.example.tests.TestContactDelete -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

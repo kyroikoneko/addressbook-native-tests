@@ -47,5 +47,56 @@ public class ContactHelper extends HelpersBase {
 		     .winWaitAndActivate("AddressBook Portable", "", 5000);
         return contact;		
 	}
+	
+	//***********************************************
+	public void deleteContact() throws InterruptedException {
+		checkContact();
+		confirmContactDelete(); 
+		
+	}
+
+	//************************************************
+	private void confirmContactDelete()  {
+		manager.getAutoItHelper()
+		.winWaitAndActivate("Confirm", "", 5000)
+		.click("TButton2");
+		manager.getAutoItHelper().winWaitAndActivate("AddressBook Portable", "", 5000);
+		
+		
+	}
+
+	private void checkContact() {
+		manager.getAutoItHelper()
+		.winWaitAndActivate("AddressBook Portable", "", 5000)
+		.click("TListView1")
+		.send("{DOWN} {ARROW}")
+		.click("Delete");
+		
+			
+	}
+	
+	public int checkContactDelete(Contact contact)  {
+		
+		
+		manager.getAutoItHelper()
+		.send("TEdit1",contact.lastname)
+		.click("TRbButton10");
+				
+		boolean b=manager.getAutoItHelper().windowExist("Information");
+		if (b){
+			 manager.getAutoItHelper().click("TButton1"); 
+			 return 1;
+			 }
+		else return 0;
+	
+		
+	}
+
+	public void exitFormDeletion() {
+		manager.getAutoItHelper()
+		.winWaitAndActivate("AddressBook Portable", "", 5000)
+		.click("Exit");
+		
+	}
 
 }

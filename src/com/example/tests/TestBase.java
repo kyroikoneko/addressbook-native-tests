@@ -4,7 +4,6 @@ import java.io.FileReader;
 import java.util.Properties;
 import java.util.logging.Logger;
 
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
